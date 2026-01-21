@@ -77,7 +77,7 @@ Vibe: Distinctive, NOT generic
 short URLs, weird names  
 Status: Brain mode 💭  
 
-**💼 hexagon ticketing** `[$$$ ACTIVE $$$]`  
+**💼 shadow work`  
 Complex PostgreSQL query optimization  
 Status: Making things FAST ⚡  
 
