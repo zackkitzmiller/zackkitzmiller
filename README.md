@@ -119,15 +119,15 @@ Status: Making things FAST ⚡
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
 ║                                                                   ║
-║   💎 RUBY ON RAILS → the one true path                          ║
-║   🐘 POSTGRESQL → with queries so complex they make devs cry    ║
-║   🐧 ARCH LINUX → btw (Framework 16" laptop)                    ║
-║   🌊 HYPRLAND → because tiling WMs are superior                 ║
-║   ☁️  AWS FARGATE → containers in the cloud                     ║
-║   🏗️ TERRAFORM → infrastructure as code                         ║
-║   📱 TWILIO → A2P 10DLC certified SMS                           ║
-║   ⚡ SIDEKIQ → background jobs that actually work               ║
-║   🎨 TAILWIND → but tastefully, no gross stuff                  ║
+║   💎 RUBY ON RAILS → the one true path                            ║
+║   🐘 POSTGRESQL → with queries so complex they make devs cry      ║
+║   🐧 ARCH LINUX → btw (Framework 16" laptop)                      ║
+║   🌊 HYPRLAND → because tiling WMs are superior                   ║
+║   ☁️  AWS FARGATE → containers in the cloud                       ║
+║   🏗️ TERRAFORM → infrastructure as code                           ║
+║   📱 TWILIO → A2P 10DLC certified SMS                             ║
+║   ⚡ SIDEKIQ → background jobs that actually work                  ║
+║   🎨 TAILWIND → but tastefully, no gross stuff                    ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
@@ -330,13 +330,13 @@ Suffering Terraform████████████░░░░░░░  60
 ╔════════════════════════════════════════════════════════════════╗
 ║                    SYSTEM REQUIREMENTS                         ║
 ╠════════════════════════════════════════════════════════════════╣
-║  🖥️  BROWSER: Netscape Navigator 4.0 or higher                ║
-║  📺 RESOLUTION: 800x600 (1024x768 recommended)                ║
-║  🎨 COLORS: 256 colors minimum (millions preferred)           ║
-║  💾 STORAGE: 16MB RAM, 100MB HDD space                        ║
-║  📢 SOUND: SoundBlaster compatible                            ║
-║  🖱️  INPUT: Mouse with scroll wheel                           ║
-║  ⚡ CONNECTION: 56k modem minimum (T1 recommended)            ║
+║  🖥️  BROWSER: Netscape Navigator 4.0 or higher                 ║
+║  📺 RESOLUTION: 800x600 (1024x768 recommended)                 ║
+║  🎨 COLORS: 256 colors minimum (millions preferred)            ║
+║  💾 STORAGE: 16MB RAM, 100MB HDD space                         ║
+║  📢 SOUND: SoundBlaster compatible                             ║
+║  🖱️  INPUT: Mouse with scroll wheel                            ║
+║  ⚡ CONNECTION: 56k modem minimum (T1 recommended)              ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
 
@@ -375,12 +375,12 @@ Suffering Terraform████████████░░░░░░░  60
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
 ║                                                                   ║
-║              ⭐ THANK YOU FOR VISITING ZACK'S HOMEPAGE ⭐         ║
+║              ⭐ THANK YOU FOR VISITING ZACK'S HOMEPAGE ⭐           ║
 ║                                                                   ║
-║  📧 CONTACT WEBMASTER: for business, racing talk, or vim wars   ║
-║  📝 SIGN GUESTBOOK: leave your mark on internet history         ║
-║  🔄 BOOKMARK THIS PAGE: you know you want to                    ║
-║  📢 TELL YOUR FRIENDS: spread the word                          ║
+║  📧 CONTACT WEBMASTER: for business, racing talk, or vim wars     ║
+║  📝 SIGN GUESTBOOK: leave your mark on internet history           ║
+║  🔄 BOOKMARK THIS PAGE: you know you want to                      ║
+║  📢 TELL YOUR FRIENDS: spread the word                            ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
