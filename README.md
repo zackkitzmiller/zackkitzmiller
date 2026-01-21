@@ -21,7 +21,7 @@
 
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  🎖️ SITE CERTIFIED: 100% AI SLOP FREE 🎖️  ┃  ⚡ POWERED BY VIM ⚡  ┃
+┃  🎖️ SITE CERTIFIED: 100% AI SLOP FREE 🎖️  ┃  ⚡ POWERED BY VIM ⚡       ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
@@ -29,9 +29,9 @@
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
-│  👁️  YOU ARE VISITOR NUMBER: 1 4 7 , 3 9 2  👁️                │
-│  🕐 LAST UPDATED: literally right now                          │
-│  📟 ESTABLISHED: 1998 (in internet years)                     │
+│  👁️  YOU ARE VISITOR NUMBER: 1 4 7 , 3 9 2  👁️                 │
+│  🕐 LAST UPDATED: literally right now                           │
+│  📟 ESTABLISHED: 1998 (in internet years)                      │
 └────────────────────────────────────────────────────────────────┘
 ```
 
@@ -87,9 +87,9 @@ Status: Making things FAST ⚡
 
 ```
 ╔══════════════════════════════╗
-║  TEAM: Evolution of Speed   ║
-║  CAR: Toyota Supra          ║
-║  STATUS: World Record Holder║
+║  TEAM: Evolution of Speed    ║
+║  CAR: Toyota Supra           ║
+║  STATUS: World Record Holder ║
 ╚══════════════════════════════╝
 ```
 
