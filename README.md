@@ -123,10 +123,10 @@ Status: Making things FAST ⚡
 ║   🐘 POSTGRESQL → with queries so complex they make devs cry      ║
 ║   🐧 ARCH LINUX → btw (Framework 16" laptop)                      ║
 ║   🌊 HYPRLAND → because tiling WMs are superior                   ║
-║   ☁️  AWS FARGATE → containers in the cloud                       ║
+║   ☁️ AWS FARGATE → containers in the cloud                        ║
 ║   🏗️ TERRAFORM → infrastructure as code                           ║
 ║   📱 TWILIO → A2P 10DLC certified SMS                             ║
-║   ⚡ SIDEKIQ → background jobs that actually work                  ║
+║    ⚡ SIDEKIQ → background jobs that actually work                 ║
 ║   🎨 TAILWIND → but tastefully, no gross stuff                    ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
@@ -203,13 +203,13 @@ Suffering Terraform████████████░░░░░░░  60
 
 ```
 ╔═══════════════════════════╗
-║   ❌ NO AI SLOP          ║
-║   ❌ NO FLASHY GARBAGE   ║
-║   ❌ NO GENERIC VIBES    ║
+║   ❌ NO AI SLOP            ║
+║   ❌ NO FLASHY GARBAGE     ║
+║   ❌ NO GENERIC VIBES      ║
 ║                           ║
-║   ✅ CLEAN MINIMAL       ║
-║   ✅ DISTINCTIVE TYPE    ║
-║   ✅ PRAGMATIC > DOGMA   ║
+║   ✅ CLEAN MINIMAL        ║
+║   ✅ DISTINCTIVE TYPE     ║
+║   ✅ PRAGMATIC > DOGMA    ║
 ╚═══════════════════════════╝
 ```
 
@@ -245,10 +245,10 @@ Suffering Terraform████████████░░░░░░░  60
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│  💬 "sick setup bro" - anonymous, 2026-01-20               │
-│  💬 "that supra is INSANE" - racing_fan_42, 2026-01-19    │
-│  💬 "finally a readme that doesn't suck" - dev_lord, 2026  │
-│  💬 "vim > emacs fight me" - editor_wars, 2026-01-18      │
+│  💬 "sick setup bro" - anonymous, 2026-01-20                │
+│  💬 "that supra is INSANE" - racing_fan_42, 2026-01-19      │
+│  💬 "finally a readme that doesn't suck" - dev_lord, 2026   │
+│  💬 "vim > emacs fight me" - editor_wars, 2026-01-18        │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -357,12 +357,12 @@ Suffering Terraform████████████░░░░░░░  60
 ```
 ┌────────────────────────────────────┐
 │  🔧 LATEST UPDATES:                │
-│  • Racing stats section added     │
-│  • Guestbook enabled              │
-│  • Hot links updated              │
-│  • Visitor counter incremented    │
-│  • Webring joined                 │
-│  • More badges acquired           │
+│  • Racing stats section added      │
+│  • Guestbook enabled               │
+│  • Hot links updated               │
+│  • Visitor counter incremented     │
+│  • Webring joined                  │
+│  • More badges acquired            │
 └────────────────────────────────────┘
 ```
 
