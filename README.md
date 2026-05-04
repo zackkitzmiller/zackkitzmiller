@@ -66,7 +66,6 @@ I was the first one to sign my own guestbook!!!!
 </div>
 ---
 
----
 
 ## 📢 WEBMASTER'S ANNOUNCEMENT 📢
 
