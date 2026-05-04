@@ -48,8 +48,6 @@
 </div>
 
 ---
-
-
 <!-- GUESTBOOK:START -->
 ## 📖 GuestBook — 0 Entries
 <!-- GUESTBOOK:ENTRIES -->
