@@ -49,6 +49,18 @@
 
 ---
 
+
+<!-- GUESTBOOK:START -->
+## 📖 GuestBook — 0 Entries
+<!-- GUESTBOOK:ENTRIES -->
+<!-- GUESTBOOK:END -->
+<div align="center">
+
+**[📝 SIGN MY GUESTBOOK 📝](https://github.com/zackkitzmiller/zackkitzmiller/issues/new?label=guestbook)**
+
+</div>
+---
+
 ## 📢 WEBMASTER'S ANNOUNCEMENT 📢
 
 > **⚡ BREAKING NEWS ⚡** Currently launching Flourish or Forfeit - put money where your affirmations are! Beta testing NOW! 
@@ -242,15 +254,6 @@ Suffering Terraform   ████████████░░░░░░░�
 
 ---
 
-<!-- GUESTBOOK:START -->
-## 📖 GuestBook — 0 Entries
-<!-- GUESTBOOK:ENTRIES -->
-<!-- GUESTBOOK:END -->
-<div align="center">
-
-**[📝 SIGN MY GUESTBOOK 📝](https://github.com/zackkitzmiller/zackkitzmiller/issues/new?label=guestbook)**
-
-</div>
 
 ---
 
