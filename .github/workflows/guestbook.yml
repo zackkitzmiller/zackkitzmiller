@@ -25,14 +25,9 @@ jobs:
             const readme = fs.readFileSync('README.md', 'utf8');
             const issue = context.payload.issue;
 
-            const START = '<!-- GUESTBOOK:START -->';
-            const ENTRIES = '<!-- GUESTBOOK:ENTRIES -->';
             const END = '<!-- GUESTBOOK:END -->';
-            const ENTRY_START = '<!-- ENTRY:START -->';
-            const ENTRY_END = '<!-- ENTRY:END -->';
 
-            // Validate boundaries exist
-            if (!readme.includes(START) || !readme.includes(END) || !readme.includes(ENTRIES)) {
+            if (!readme.includes('<!-- GUESTBOOK:START -->') || !readme.includes(END)) {
               core.setFailed('Guestbook boundaries not found in README.md');
               return;
             }
@@ -40,42 +35,34 @@ jobs:
             // Sanitize inputs — strip HTML comments so nobody can break boundaries
             const sanitize = (str) => str.replace(/<!--/g, '').replace(/-->/g, '').trim();
             const title = sanitize(issue.title);
-            const body = sanitize(issue.body || '_No message left._');
+            const body = sanitize(issue.body || '');
             const user = issue.user.login;
-            const date = new Date().toISOString().split('T')[0];
+            const date = new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 
-            // Build the new entry
-            const entry = [
-              ENTRY_START,
-              `**${title}**`,
-              '',
-              body,
-              '',
-              `— @${user} · ${date}`,
-              ENTRY_END,
-            ].join('\n');
+            // Compact one-liner entry
+            const message = body ? ` ${body}` : '';
+            const entry = `> **${title}** —${message} _— @${user}, ${date}_`;
 
-            // Count existing entries and add one for the new one
-            const existingCount = (readme.match(/<!-- ENTRY:START -->/g) || []).length;
+            // Count existing entries (each starts with "> **")
+            const existingCount = (readme.match(/^> \*\*/gm) || []).length;
             const newCount = existingCount + 1;
             const plural = newCount === 1 ? 'Entry' : 'Entries';
 
-            // Insert new entry before the END boundary
+            // Insert new entry before END boundary
             let updated = readme.replace(
               END,
-              `${entry}\n${END}`
+              `${entry}\n\n${END}`
             );
 
-            // Update the count in the header line
+            // Update count — match the header loosely so dashes/encoding don't matter
             updated = updated.replace(
-              /### 📖 GuestBook — \d+ Entr(?:y|ies)/,
-              `### 📖 GuestBook — ${newCount} ${plural}`
+              /^(###\s*📖\s*GuestBook\s*).+$/m,
+              `$1— ${newCount} ${plural}`
             );
 
             fs.writeFileSync('README.md', updated);
             core.info(`Guestbook entry #${newCount} added for @${user}`);
 
-            // Export for commit step
             core.exportVariable('ENTRY_NUMBER', newCount);
             core.exportVariable('GUEST_USER', user);
 
@@ -96,7 +83,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issue.number,
-              body: `Thanks for signing the guestbook, @${issue.user.login}! 📖✨\n\nYour entry is live in the [README](/${context.repo.owner}/${context.repo.repo}#-guestbook--${process.env.ENTRY_NUMBER}-entries).`
+              body: `Thanks for signing the guestbook, @${issue.user.login}! 📖✨`
             });
             await github.rest.issues.update({
               owner: context.repo.owner,
