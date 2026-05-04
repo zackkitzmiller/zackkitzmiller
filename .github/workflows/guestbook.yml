@@ -43,9 +43,15 @@ jobs:
             const message = body ? ` ${body}` : '';
             const entry = `> **${title}**: ${message} _— @${user}, ${date}_`;
 
-            // Count existing entries (each starts with "> **")
-            const existingCount = (readme.match(/^> \*\*/gm) || []).length;
-            const newCount = existingCount + 1;
+            // Count guestbook entries via closed issues with the label + 1 for this one
+            const { data: closed } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'guestbook',
+              state: 'closed',
+              per_page: 100,
+            });
+            const newCount = closed.length + 1;
             const plural = newCount === 1 ? 'Entry' : 'Entries';
 
             // Insert new entry before END boundary
