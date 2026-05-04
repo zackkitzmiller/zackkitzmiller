@@ -242,22 +242,13 @@ Suffering Terraform   ████████████░░░░░░░�
 
 ---
 
-## 📖 GUESTBOOK 📖
-
+<!-- GUESTBOOK:START -->
+## 📖 GuestBook — 0 Entries
+<!-- GUESTBOOK:ENTRIES -->
+<!-- GUESTBOOK:END -->
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  💬 "sick setup bro" - anonymous, 2026-01-20                │
-│  💬 "that supra is INSANE" - racing_fan_42, 2026-01-19      │
-│  💬 "finally a readme that doesn't suck" - dev_lord, 2026   │
-│  💬 "vim > emacs fight me" - editor_wars, 2026-01-18        │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-**[📝 SIGN MY GUESTBOOK 📝](https://github.com/zackkitzmiller/zackkitzmiller/issues/new?title=Guestbook%20Entry)**
+**[📝 SIGN MY GUESTBOOK 📝](https://github.com/zackkitzmiller/zackkitzmiller/issues/new?label=guestbook)**
 
 </div>
 
