@@ -1,0 +1,107 @@
+name: Guestbook
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  sign-guestbook:
+    if: contains(github.event.issue.labels.*.name, 'guestbook')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sign the guestbook
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            const readme = fs.readFileSync('README.md', 'utf8');
+            const issue = context.payload.issue;
+
+            const START = '<!-- GUESTBOOK:START -->';
+            const ENTRIES = '<!-- GUESTBOOK:ENTRIES -->';
+            const END = '<!-- GUESTBOOK:END -->';
+            const ENTRY_START = '<!-- ENTRY:START -->';
+            const ENTRY_END = '<!-- ENTRY:END -->';
+
+            // Validate boundaries exist
+            if (!readme.includes(START) || !readme.includes(END) || !readme.includes(ENTRIES)) {
+              core.setFailed('Guestbook boundaries not found in README.md');
+              return;
+            }
+
+            // Sanitize inputs — strip HTML comments so nobody can break boundaries
+            const sanitize = (str) => str.replace(/<!--/g, '').replace(/-->/g, '').trim();
+            const title = sanitize(issue.title);
+            const body = sanitize(issue.body || '_No message left._');
+            const user = issue.user.login;
+            const date = new Date().toISOString().split('T')[0];
+
+            // Build the new entry
+            const entry = [
+              ENTRY_START,
+              `**${title}**`,
+              '',
+              body,
+              '',
+              `— @${user} · ${date}`,
+              ENTRY_END,
+            ].join('\n');
+
+            // Count existing entries and add one for the new one
+            const existingCount = (readme.match(/<!-- ENTRY:START -->/g) || []).length;
+            const newCount = existingCount + 1;
+            const plural = newCount === 1 ? 'Entry' : 'Entries';
+
+            // Insert new entry before the END boundary
+            let updated = readme.replace(
+              END,
+              `${entry}\n${END}`
+            );
+
+            // Update the count in the header line
+            updated = updated.replace(
+              /### 📖 GuestBook — \d+ Entr(?:y|ies)/,
+              `### 📖 GuestBook — ${newCount} ${plural}`
+            );
+
+            fs.writeFileSync('README.md', updated);
+            core.info(`Guestbook entry #${newCount} added for @${user}`);
+
+            // Export for commit step
+            core.exportVariable('ENTRY_NUMBER', newCount);
+            core.exportVariable('GUEST_USER', user);
+
+      - name: Commit and push
+        run: |
+          git config user.name "guestbook[bot]"
+          git config user.email "guestbook[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "📖 guestbook entry #${ENTRY_NUMBER} by @${GUEST_USER}"
+          git push
+
+      - name: Close the issue with a thank you
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: `Thanks for signing the guestbook, @${issue.user.login}! 📖✨\n\nYour entry is live in the [README](/${context.repo.owner}/${context.repo.repo}#-guestbook--${process.env.ENTRY_NUMBER}-entries).`
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              state: 'closed',
+              state_reason: 'completed'
+            });
