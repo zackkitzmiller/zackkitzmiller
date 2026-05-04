@@ -59,6 +59,8 @@
 </div>
 ---
 
+---
+
 ## 📢 WEBMASTER'S ANNOUNCEMENT 📢
 
 > **⚡ BREAKING NEWS ⚡** Currently launching Flourish or Forfeit - put money where your affirmations are! Beta testing NOW! 
@@ -249,8 +251,6 @@ Suffering Terraform   ████████████░░░░░░░�
 *member of the Chicago Indie Dev webring since 1998*
 
 </div>
-
----
 
 
 ---
