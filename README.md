@@ -60,7 +60,7 @@
 <!-- GUESTBOOK:END -->
 <div align="center">
 
-**[📝 SIGN MY GUESTBOOK 📝](https://github.com/zackkitzmiller/zackkitzmiller/issues/new?label=guestbook)**
+**[📝 SIGN MY GUESTBOOK 📝](https://github.com/zackkitzmiller/zackkitzmiller/issues/new?labels=guestbook)**
 
 </div>
 
