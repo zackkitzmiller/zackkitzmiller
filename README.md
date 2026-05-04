@@ -51,6 +51,13 @@
 <!-- GUESTBOOK:START -->
 ## 📖 GuestBook — 0 Entries
 <!-- GUESTBOOK:ENTRIES -->
+<!-- ENTRY:START -->
+**First**
+
+I was the first one to sign my own guestbook!!!!
+
+— @zackkitzmiller · 2026-05-04
+<!-- ENTRY:END -->
 <!-- GUESTBOOK:END -->
 <div align="center">
 
