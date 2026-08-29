@@ -22,8 +22,8 @@
 
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃  🎖️ SITE CERTIFIED: 100% AI SLOP FREE 🎖️  ┃  ⚡ POWERED BY VIM ⚡     ┃
-┃ i dont use vim. lol                                                 ┃
+┃  🎖️ SITE CERTIFIED: 100% AI SLOP FREE 🎖️  ┃  ⚡ POWERED BY VIM ⚡       ┃
+┃ i dont use vim. lol                                                   ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
