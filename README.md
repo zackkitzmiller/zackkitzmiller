@@ -29,15 +29,16 @@
 ```
 
 ![](https://img.shields.io/badge/⚠️-UNDER_CONSTRUCTION-yellow?style=for-the-badge) ![](https://img.shields.io/badge/STATUS-ALWAYS_SHIPPING-brightgreen?style=for-the-badge) ![](https://img.shields.io/badge/WEBMASTER-ZACK-blue?style=for-the-badge)
+</div>
 
 ```
-┌────────────────────────────────────────────────────────────────┐
-│  🕐 LAST UPDATED: literally right now                          │  \
-│  📟 ESTABLISHED: 1998 (in internet years)                      │   \
-└────────────────────────────────────────────────────────────────┘    \
-\                                                                \     \
- \                                                                \     \
-  \________________________________________________________________\_____\
+┌────────────────────────────────────────────────────────────────┐\
+│  🕐 LAST UPDATED: literally right now                          │ \
+│  📟 ESTABLISHED: 1998 (in internet years)                      │  \
+└────────────────────────────────────────────────────────────────┘   \
+\                                                                \    \
+ \                                                                \    \
+  \________________________________________________________________\____\
 ```
 
 ### 👁️ VISITOR NUMBER <!--COUNTER:START-->8<!--COUNTER:END--> 👁️
