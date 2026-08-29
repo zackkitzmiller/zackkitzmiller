@@ -40,7 +40,7 @@
   \________________________________________________________________\_____\
 ```
 
-### 👁️ VISITOR NUMBER <!--COUNTER:START-->6<!--COUNTER:END--> 👁️
+### 👁️ VISITOR NUMBER <!--COUNTER:START-->7<!--COUNTER:END--> 👁️
 
 ---
 
