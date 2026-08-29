@@ -30,7 +30,7 @@
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
-│  👁️  YOU ARE VISITOR NUMBER: <!--COUNTER:START-->0<!--COUNTER:END-->  👁️                 │\
+│    YOU ARE VISITOR NUMBER:   👁️                 │\
 │  🕐 LAST UPDATED: literally right now                          │  \
 │  📟 ESTABLISHED: 1998 (in internet years)                      │   \
 └────────────────────────────────────────────────────────────────┘    \
@@ -38,6 +38,8 @@
  \                                                                \     \
   \________________________________________________________________\_____\
 ```
+
+### 👁️ VISITOR NUMBER 👁️ <!--COUNTER:START-->0<!--COUNTER:END--> 👁️
 
 ---
 
