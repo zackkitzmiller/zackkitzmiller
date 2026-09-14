@@ -41,7 +41,7 @@
   \________________________________________________________________\____\
 ```
 
-### 👁️ VISITOR NUMBER <!--COUNTER:START-->24<!--COUNTER:END--> 👁️
+### 👁️ VISITOR NUMBER <!--COUNTER:START-->25<!--COUNTER:END--> 👁️
 
 ---
 
