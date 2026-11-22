@@ -1,5 +1,5 @@
 # 🌟✨🔥 ZACK'S TOTALLY AWESOME HOMEPAGE 🔥✨🌟
-<img src="https://zrkonium.mudskipper-typhon.ts.net/pixel.gif"/>
+<img src="https://scallywag.mudskipper-typhon.ts.net/pixel.gif"/>
 
 ```
  ______   ___   ________ __    _________
